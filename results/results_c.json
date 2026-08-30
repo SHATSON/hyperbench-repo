@@ -1,0 +1,124 @@
+{
+  "constants": {
+    "kg_per_geometric_metre": 1.346590921500109e+27
+  },
+  "scaling_exponents": {
+    "exponent_v": {
+      "fitted": 2.0,
+      "predicted": 2.0,
+      "max_log_residual": 1.7763568394002505e-15
+    },
+    "exponent_R": {
+      "fitted": 1.9994844468156392,
+      "predicted": 2.0,
+      "max_log_residual": 0.0014419017046094496
+    },
+    "exponent_sigma": {
+      "fitted": 0.9999834985324311,
+      "predicted": 1.0,
+      "max_log_residual": 6.382410855199083e-05
+    }
+  },
+  "thin_wall_asymptotics": [
+    {
+      "sigma": 1.0,
+      "sigma_times_R": 100.0,
+      "E_quadrature": -277.7867351953738,
+      "E_thin_wall_formula": -277.77777777777777,
+      "rel_err": 3.224670334573148e-05
+    },
+    {
+      "sigma": 5.0,
+      "sigma_times_R": 500.0,
+      "E_quadrature": -1388.8906803724149,
+      "E_thin_wall_formula": -1388.888888888889,
+      "rel_err": 1.2898681386832322e-06
+    },
+    {
+      "sigma": 20.0,
+      "sigma_times_R": 2000.0,
+      "E_quadrature": -5555.55600342644,
+      "E_thin_wall_formula": -5555.555555555556,
+      "rel_err": 8.061675916906097e-08
+    },
+    {
+      "sigma": 100.0,
+      "sigma_times_R": 10000.0,
+      "E_quadrature": -27777.777867355573,
+      "E_thin_wall_formula": -27777.777777777777,
+      "rel_err": 3.2248006464214997e-09
+    },
+    {
+      "sigma": 1000.0,
+      "sigma_times_R": 100000.0,
+      "E_quadrature": -277777.77778726135,
+      "E_thin_wall_formula": -277777.77777777775,
+      "rel_err": 3.414095845073462e-11
+    }
+  ],
+  "physical_budget": [
+    {
+      "case": "macroscopic wall, 1 m",
+      "R_m": 100.0,
+      "sigma_inv_m": 1.0,
+      "v_over_c": 1.0,
+      "E_geometric_m": -277.77777777777777,
+      "mass_equivalent_kg": -3.740530337500303e+29,
+      "solar_masses": -0.18806841589909615
+    },
+    {
+      "case": "wall 1 cm",
+      "R_m": 100.0,
+      "sigma_inv_m": 100.0,
+      "v_over_c": 1.0,
+      "E_geometric_m": -27777.777777777777,
+      "mass_equivalent_kg": -3.7405303375003025e+31,
+      "solar_masses": -18.806841589909613
+    },
+    {
+      "case": "wall 1 mm",
+      "R_m": 100.0,
+      "sigma_inv_m": 1000.0,
+      "v_over_c": 1.0,
+      "E_geometric_m": -277777.77777777775,
+      "mass_equivalent_kg": -3.740530337500302e+32,
+      "solar_masses": -188.06841589909612
+    },
+    {
+      "case": "wall 1 micron",
+      "R_m": 100.0,
+      "sigma_inv_m": 1000000.0,
+      "v_over_c": 1.0,
+      "E_geometric_m": -277777777.7777778,
+      "mass_equivalent_kg": -3.740530337500303e+35,
+      "solar_masses": -188068.41589909614
+    },
+    {
+      "case": "wall 1 picometre",
+      "R_m": 100.0,
+      "sigma_inv_m": 1000000000000.0,
+      "v_over_c": 1.0,
+      "E_geometric_m": -277777777777777.78,
+      "mass_equivalent_kg": -3.7405303375003024e+41,
+      "solar_masses": -188068415899.09613
+    },
+    {
+      "case": "small craft R=10 m, wall 1 mm",
+      "R_m": 10.0,
+      "sigma_inv_m": 1000.0,
+      "v_over_c": 1.0,
+      "E_geometric_m": -2777.777777777778,
+      "mass_equivalent_kg": -3.740530337500303e+30,
+      "solar_masses": -1.8806841589909613
+    },
+    {
+      "case": "R=100 m, wall 1 mm, v=0.1c",
+      "R_m": 100.0,
+      "sigma_inv_m": 1000.0,
+      "v_over_c": 0.1,
+      "E_geometric_m": -2777.7777777777783,
+      "mass_equivalent_kg": -3.7405303375003033e+30,
+      "solar_masses": -1.8806841589909618
+    }
+  ]
+}

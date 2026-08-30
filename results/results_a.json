@@ -1,0 +1,84 @@
+{
+  "general_formulas": {
+    "rho": "Mul(Rational(1, 8), Pow(pi, Integer(-1)), Pow(Symbol('r', positive=True), Integer(-2)), Derivative(Function('b')(Symbol('r', positive=True)), Tuple(Symbol('r', positive=True), Integer(1))))",
+    "rho_pretty": "Derivative(b(r), r)/(8*pi*r**2)",
+    "p_r_pretty": "(2*r**2*Derivative(Phi(r), r) - 2*r*b(r)*Derivative(Phi(r), r) - b(r))/(8*pi*r**3)",
+    "nec_radial_pretty": "(2*r**2*Derivative(Phi(r), r) - 2*r*b(r)*Derivative(Phi(r), r) + r*Derivative(b(r), r) - b(r))/(8*pi*r**3)",
+    "matches_morris_thorne_rho": true,
+    "matches_morris_thorne_pr": true
+  },
+  "throat_limit": {
+    "nec_at_throat": "(bprime - 1)/(8*pi*b_0**2)",
+    "nec_at_throat_times_8pi_b0sq": "bprime - 1",
+    "flareout_spot_checks": {
+      "-1": {
+        "value": -0.07957747154594767,
+        "negative": true
+      },
+      "0": {
+        "value": -0.039788735772973836,
+        "negative": true
+      },
+      "1/2": {
+        "value": -0.019894367886486918,
+        "negative": true
+      },
+      "9/10": {
+        "value": -0.0039788735772973835,
+        "negative": true
+      },
+      "99/100": {
+        "value": -0.00039788735772973834,
+        "negative": true
+      }
+    },
+    "all_negative": true
+  },
+  "family_sweep": [
+    {
+      "alpha": "1/4",
+      "b_prime_at_throat": "-1/4",
+      "rho": "-b_0**(5/4)/(32*pi*r**(13/4))",
+      "nec_radial": "-5*b_0**(5/4)/(32*pi*r**(13/4))",
+      "nec_at_throat": "-5/(32*pi*b_0**2)",
+      "engine_matches_analytic": true,
+      "flare_out_satisfied": true
+    },
+    {
+      "alpha": "1/2",
+      "b_prime_at_throat": "-1/2",
+      "rho": "-b_0**(3/2)/(16*pi*r**(7/2))",
+      "nec_radial": "-3*b_0**(3/2)/(16*pi*r**(7/2))",
+      "nec_at_throat": "-3/(16*pi*b_0**2)",
+      "engine_matches_analytic": true,
+      "flare_out_satisfied": true
+    },
+    {
+      "alpha": "1",
+      "b_prime_at_throat": "-1",
+      "rho": "-b_0**2/(8*pi*r**4)",
+      "nec_radial": "-b_0**2/(4*pi*r**4)",
+      "nec_at_throat": "-1/(4*pi*b_0**2)",
+      "engine_matches_analytic": true,
+      "flare_out_satisfied": true
+    },
+    {
+      "alpha": "2",
+      "b_prime_at_throat": "-2",
+      "rho": "-b_0**3/(4*pi*r**5)",
+      "nec_radial": "-3*b_0**3/(8*pi*r**5)",
+      "nec_at_throat": "-3/(8*pi*b_0**2)",
+      "engine_matches_analytic": true,
+      "flare_out_satisfied": true
+    },
+    {
+      "alpha": "4",
+      "b_prime_at_throat": "-4",
+      "rho": "-b_0**5/(2*pi*r**7)",
+      "nec_radial": "-5*b_0**5/(8*pi*r**7)",
+      "nec_at_throat": "-5/(8*pi*b_0**2)",
+      "engine_matches_analytic": true,
+      "flare_out_satisfied": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Extra dependencies for rebuilding the manuscript and its figures.
+# NOT required to reproduce the numerical results -- see requirements.txt.
+#
+#   pip install -r requirements-paper.txt
+#   make figures    # regenerate figures/architecture.{png,pdf,svg}
+#   make paper      # rebuild paper/*.docx  (also needs pandoc >= 3.0)
+matplotlib>=3.7
