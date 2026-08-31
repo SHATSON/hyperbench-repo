@@ -14,7 +14,7 @@ authors:
 version: 1.0.0
 date-released: 2026-08-30
 license: MIT
-repository-code: "https://github.com/<your-username>/hyperbench"
+repository-code: "https://github.com/SHATSON/hyperbench-repo"
 keywords:
   - computational general relativity
   - symbolic computation
