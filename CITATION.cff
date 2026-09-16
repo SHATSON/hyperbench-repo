@@ -7,9 +7,9 @@ abstract: >-
   audits, constrained optimisation of exotic-matter budgets, and control-theoretic
   analysis of dynamic throat stabilisation.
 authors:
-  - family-names: "[Surname]"
-    given-names: "[Given name]"
-    affiliation: "[Department of Computer Science, Institution]"
+  - family-names: "Pamba"
+    given-names: "Shatson Fasco"
+    affiliation: "Department of Computer Science, Kampala International University"
     orcid: "https://orcid.org/0000-0000-0000-0000"
 version: 1.0.0
 date-released: 2026-08-30

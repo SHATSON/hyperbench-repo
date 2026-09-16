@@ -156,13 +156,6 @@ Both were encountered during development and are recorded because they fail *sil
 
 An earlier version of Experiment B also returned values *below* a proven bound — the optimiser was correctly solving an under-specified problem in which asymptotic matching to flat space was not enforced. The analytic bound functioned as a test oracle. See `VERIFICATION.md` §6.
 
-## Before you publish this repository
-
-Placeholders remain in `README.md`, `CITATION.cff`, `LICENSE`, and the manuscript's Data Availability section:
-
-```bash
-grep -rn "<your-username>\|\[Author Name\]\|\[Surname\]\|\[Given name\]" .
-```
 
 `PUBLISHING.md` gives step-by-step instructions, including how to mint a Zenodo DOI — journals increasingly require a versioned archive rather than a bare repository link.
 
